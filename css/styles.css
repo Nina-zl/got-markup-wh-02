@@ -34,6 +34,94 @@ a {
 .heder-logo .logo-part {
     color: #2e2f42;
 }
+
+/* ==== Hero === */
+.main-page {
+background-color: #2e2f42;
+}
+.main-page-title {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        color: #fff;
+}
+
+.main-page-btn {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #4d5ae5;
+}
+
+/* ====== Our Benefits ========*/
+.our-benefits {
+background-color: #f4f4fd;
+}
+
+.benefits-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.benefits-item-discr {
+font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+/* ====== Our Team ========*/
+.our-team-title {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+
+.our-time-name {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
+
+.main-page-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.our-portfolio-title {
+    font: 700 36px / 1.11111 "Roboto", sans-serif;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
+}
+.our-portfolio {
+background-color: #f4f4fd;
+}
+
+
+
  
 
 .footer-logo .logo-part {
