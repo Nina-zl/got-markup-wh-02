@@ -94,8 +94,7 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    border: none;
-    background-color: #4d5ae5;
+     background-color: #4d5ae5;
 }
 .main-page-btn:hover,
 .main-page-btn:focus {
@@ -194,6 +193,7 @@ font-weight: 500;
         letter-spacing: 0.02em;
         color: #434455;
 }
+
 
 /*  #endregion Our Portfolio */
  
