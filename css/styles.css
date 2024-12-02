@@ -5,10 +5,7 @@
 
 body {
     font-family: "Roboto", serif;
-    font-weight: 400;
-    color: #434455;
-    background-color: #ffffff;
-}
+   }
 
 /* ====resetting default properties=== */
 ul, ol {
@@ -19,7 +16,11 @@ a {
     text-decoration: none;
 }
 
-/* ==== heder === */
+button {
+    cursor: pointer;
+}
+
+/* #region Heder */
 .logo {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
@@ -30,12 +31,51 @@ a {
         color: #4d5ae5;
 }
 
-
 .heder-logo .logo-part {
     color: #2e2f42;
 }
 
-/* ==== Hero === */
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+
+/* ==== address === */
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #404bbf;
+}
+
+/* #endregion */
+
+
+
+
+
+
+
+/* #region Hero */
 .main-page {
 background-color: #2e2f42;
 }
@@ -54,13 +94,20 @@ font-weight: 500;
     letter-spacing: 0.04em;
     color: #fff;
     border: none;
-    cursor: pointer;
     background-color: #4d5ae5;
 }
+.main-page-btn:hover,
+.main-page-btn:focus {
+    background-color: #404bbf;
+}
 
-/* ====== Our Benefits ========*/
-.our-benefits {
-background-color: #f4f4fd;
+/* #endregion Hero */
+
+/* #region Our Benefits */
+
+
+/* .our-benefits { */
+/* background-color: #f4f4fd;  */
 }
 
 .benefits-item-title {
@@ -78,15 +125,21 @@ font-weight: 400;
     letter-spacing: 0.02em;
     color: #434455;
 }
+/* #endregion Our Benefits */
 
 
-/* ====== Our Team ========*/
+/*  #region Our Team */
+
+
+.our-team {
+    background-color: #f4f4fd;
+}
+
 .our-team-title {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 
@@ -96,19 +149,23 @@ font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #2e2f42;
 }
 
-
-.main-page-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #fff;
+.uor-time-position {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
 }
+
+/*  #endregion Our Team */
+
+
+/*  #region Our Portfolio */
+
+.our-portfolio {}
 
 .our-portfolio-title {
     font: 700 36px / 1.11111 "Roboto", sans-serif;
@@ -116,52 +173,42 @@ font-weight: 500;
         text-align: center;
         color: #2e2f42;
 }
-.our-portfolio {
-background-color: #f4f4fd;
+
+.portfolio-case {}
+
+.portfolio-name-case {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 
+.portfolio-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
 
-
+/*  #endregion Our Portfolio */
  
+/* #region Footer */
 
 .footer-logo .logo-part {
     color: #f4f4fd
 }
 
-
-.nav-link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.nav-link:hover, 
-.nav-link:focus {
-    color: #404bbf;
-}
-
-
-/* ==== address === */
-
-.address {
-  font-style: normal;  
-}
-
-.contacts-link {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.contacts-link:hover,
-.contacts-link:focus {
-    color: #404bbf;
-}
-
-
 .page-footer {
     background: #2e2f42;
 }
+
+.page-footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+/* #andregion Footer */
